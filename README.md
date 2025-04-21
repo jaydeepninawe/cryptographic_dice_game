@@ -55,8 +55,14 @@ This game uses **commit-reveal cryptography** to ensure no manipulation occurs o
 ---
 
 ## 📁 Project Structure
-
-provably-fair-dice-game/ ├── client/ │ ├── index.html │ ├── index.js │ └── assets/ │ └── demo.png └── server/ └── index.js
+provably-fair-dice-game/
+├── client/
+│   ├── index.html
+│   ├── index.js
+│   └── assets/
+│       └── demo.png
+└── server/
+    └── index.js
 
 
 ---
@@ -73,13 +79,13 @@ cd cryptographic_dice_game
 ```bash
 cd server
 npm install
-node index.js
+npm run dev
 ```
 ### 3.Install Frontend Dependencies and Start Parcel Dev Server
 ```bash
 cd ../client
 npm install
-npm start
+npm run dev
 ```
 ## Access the game at: http://localhost:1234
 
